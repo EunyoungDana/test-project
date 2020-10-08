@@ -1,0 +1,33 @@
+/* fashion.css */
+
+#content {
+  height: auto;
+  background: #fff;
+}
+#content .img_list {overflow: hidden;}
+#content .img_list li {
+  float: left;
+  width: 12.5%;
+}
+#content .img_list img {
+  width: 100%;
+  border : 4px solid #fff;
+  box-sizing: border-box;
+  /* filter: brightness(60%); */
+}
+#content .img_list img:hover {
+  /* filter: brightness(110%); */
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+#main {
+  margin: 10px auto;
+}
+header {
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+header > h2 {
+  margin: 10px 0;
+}
